@@ -376,7 +376,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-margin-top: 5rem;
+  margin-top: 5rem;
   width: 100%;
   min-height: 60vh;
   padding: 3rem;
@@ -450,7 +450,7 @@ margin-top: 5rem;
 }
 
 .hpc-bottom h4 {
-font-size: 1rem;
+  font-size: 1rem;
 }
 .hpc-bottom i {
   font-size: 1.3rem;
@@ -570,7 +570,6 @@ ul {
   border-top: 0.0625rem dotted #444343;
 }
 
-
 @media (max-width: 768px) {
   html {
     font-size: 14px;
@@ -632,6 +631,10 @@ ul {
     height: 18rem;
   }
 
+  .product-card:hover .product-tumb img {
+    transform: none;
+  }
+
   .product-bottom-details {
     gap: 0.7rem;
     flex-wrap: wrap;
@@ -643,11 +646,8 @@ ul {
 
   #atc,
   #atw {
-    display: none ;
+    display: none;
   }
-
-
-
 
   /* Categories */
 
