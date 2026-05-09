@@ -27,7 +27,7 @@ body {
 }
 
 #logo-img {
-  height: 2.5rem;
+  height: 2.7rem;
   cursor: pointer;
 }
 
@@ -36,9 +36,25 @@ body {
 }
 
 #right-nav a {
+  position: relative;
   padding: 1rem;
   text-decoration: none;
   color: black;
+}
+
+#right-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.4rem;
+  width: 0;
+  height: 1px;
+  background: black;
+  transition: 0.2s ease;
+}
+
+#right-nav a:hover::after {
+  width: 100%;
 }
 
 #right-nav i {
@@ -360,7 +376,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+margin-top: 5rem;
   width: 100%;
   min-height: 60vh;
   padding: 3rem;
@@ -583,7 +599,7 @@ ul {
   /* Hero */
 
   .carousel-item {
-    height: 35vh;
+    height: 100%;
   }
 
   /* Headings */
@@ -694,6 +710,6 @@ ul {
   }
 
   #email-nwl input {
-    width: 100%;
+    width: 50%;
   }
 }
