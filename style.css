@@ -637,10 +637,17 @@ ul {
     flex-wrap: wrap;
   }
 
+  .product-bottom-details i {
+    display: block;
+  }
+
   #atc,
   #atw {
-    display: none !important;
+    display: none ;
   }
+
+
+
 
   /* Categories */
 
